@@ -1,0 +1,141 @@
+@media screen and (max-width:970px) {
+/*ここから共通*/
+.wrapper-big{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.normal-img{
+   display: none;
+}
+li a{
+   font-weight: bold;
+}
+.logo{
+   padding-top: 10px;
+   font-size: 50px;
+}
+header{
+	margin-bottom: 0;
+}
+.header ul{
+   display: block;
+   width: 100%;
+   margin:0 0 10% 0;
+}
+.resul {
+	padding: 0;
+	margin-bottom: 20%;
+}
+.resa {
+	color: black;
+	font-weight: bold;
+}
+.li-flex{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.li-flex li{
+   box-sizing: border-box;
+   padding: 10px 0;
+   border: 1px rgb(217,217,217) solid;
+   width: 50%;
+   text-align: center;
+   font-size: 18px;
+}
+footer li{
+   margin:0;
+}
+.white{
+   background-color:rgb(244, 244, 244);
+}
+.gray{
+   background-color:rgb(244, 244, 244);
+   width: 100%;
+}
+.normal-img{
+	display: none;
+}
+/*ここからindex*/
+.index-works-flex{
+   display: block;
+}
+.index-works-flex img{
+   width: 70% !important;
+   margin: 10% auto 0 auto !important;
+}
+.index-works-flex p{
+    width: 70% !important;
+    margin-left:  auto !important;
+    margin-right: auto !important;
+ }
+/*ここからabout*/
+.about-top{
+   display: block;
+}
+.face-img{
+   display: block;
+   margin:40px auto 80px auto;
+}
+table{
+   width: 100%;
+   margin: 0 auto;
+}
+.white{
+   width: 95%;
+}
+tr{
+   border: 1px black solid;
+}
+td{  
+   width: 50%;
+   font-size: 13px;
+}
+th{
+   width: 50%;
+   font-size: 13px;
+}
+.history-flex{
+   display: block;
+}
+.number{
+   text-align: center;
+   margin: 0 auto;
+}
+.history-text{
+   width: 90%;
+   margin:0 auto;
+}
+.strength{
+   display: block;
+}
+.strength-flex{
+   width: 100%;
+   margin-bottom: 120px;
+}
+.vision-flex{
+   display: block;
+   width: 100%;
+}
+.vision-text{
+   width: 100%;
+   padding: 40px 0;
+}
+.vision-flex img{
+   width: 100%;
+}
+.responsive-img{
+   display: block;
+}
+
+/*ここからworks*/
+.works img{
+   width: 100%;
+}
+}
+/*ここからfooter*/
+.footer-resul{
+   margin: 0;
+   margin-top: auto;
+}
